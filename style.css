@@ -101,20 +101,27 @@ body {
     margin-bottom: 15px;
 }
 
+.exp_edu_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 .exp_edu_li {
     margin-bottom: 55px;
 }
 
 .title {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 5px;
     padding-bottom: 10px;
     color: #51a99d;
     position: relative;
-    text-align: right;
+    text-align: left;
     margin-bottom: 15px;
+    text-decoration: underline;
 }
 
 .li_wrap .date {
@@ -179,9 +186,109 @@ body {
 }
 
 /* - - - - - - - - - -  PROJECTS  - - - - - - - - - - */
-.projects {
+.wp_projects {
     background: url(https://steamdrake.com/wp-content/uploads/2021/08/marble-bg.jpg);
     background-size: cover;
     background-position: center;
-    margin-bottom: 83px;
+}
+
+.wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.inner {
+    padding: 70px 20px;
+}
+
+.wp_projects .title {
+    text-decoration: none;
+}
+
+.wp_content {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.individual_wp {
+    width: 30%;
+    float: left;
+}
+
+figure {
+    margin: 1em 0;
+}
+
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+
+.hovereffect img {
+    display: block;
+    position: relative;
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear;
+}
+
+.hovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-image: linear-gradient(to bottom right,#51a99d, #5d164de6);
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.hovereffect .overlay h2 {
+    padding-top: 15%;
+} 
+
+.size-featured-image {
+    height: auto;
+    max-width: 100%;
+    border-radius: 10%;
+}
+
+
+/* - - - - - - - - - -  SKILLS  - - - - - - - - - - */
+.skills .inner {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.skills_contents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    color: #f2f2f2;
+    margin: 0 auto;
+}
+
+.skills_contents h3 {
+    padding: 25px;
+    background-color: #51a99d;
+    border-radius: 10%;
+}
+
+.before-footer {
+    background-image: linear-gradient(75deg, #51a99d 0%, #31313197 100%);
+    padding: 50px;
+}
+
+footer {
+    background-color: #313131;
+    color: #f2f2f2;
+    padding: 80px 0 20px;
 }
