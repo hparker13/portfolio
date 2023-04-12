@@ -209,6 +209,10 @@ a {
     margin-bottom: 100px;
 }
 
+.java_projects a {
+    color: white;
+}
+
 .java_projects .title {
     text-decoration: none;
     color: white;
@@ -234,8 +238,38 @@ a {
     float: left;
 }
 
+.column-left{
+  float: left;
+  width: 45%;
+}
+
+.column-left h3 {
+    margin-top: 55px;
+}
+
+.column-left p {
+    line-height: 1.5;
+}
+
+.column-right{
+  float: left;
+  width: 45%;
+  margin-left: 70px;
+}
+
+.column-right .individual_javattt {
+    width: 80%
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* - - - - - - -  WORDPRESS  - - - - - - - */
-.wp_projects {
+.projects {
     background: url(https://steamdrake.com/wp-content/uploads/2021/08/marble-bg.jpg);
     background-size: cover;
     background-position: center;
@@ -250,11 +284,11 @@ a {
     padding: 70px 20px;
 }
 
-.wp_projects .title {
+.projects .title {
     text-decoration: none;
 }
 
-.wp_projects .title a {
+.projects .title a {
     color: #51a99d;
 }
 
@@ -283,7 +317,7 @@ figure {
     margin: 1em 0;
 }
 
-.hovereffect {
+.project_images {
     width: 100%;
     height: 100%;
     float: left;
@@ -293,7 +327,7 @@ figure {
     cursor: default;
 }
 
-.hovereffect img {
+.project_images img {
     display: block;
     position: relative;
     -webkit-transition: all .4s linear;
@@ -326,6 +360,10 @@ figure {
     padding: 25px;
     background-color: #51a99d;
     border-radius: 10%;
+}
+
+.skills a {
+    color: white;
 }
 
 .before-footer {
