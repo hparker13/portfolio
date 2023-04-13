@@ -238,35 +238,7 @@ a {
     float: left;
 }
 
-.column-left{
-  float: left;
-  width: 45%;
-}
 
-.column-left h3 {
-    margin-top: 55px;
-}
-
-.column-left p {
-    line-height: 1.5;
-}
-
-.column-right{
-  float: left;
-  width: 45%;
-  margin-left: 70px;
-}
-
-.column-right .individual_javattt {
-    width: 80%
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 /* - - - - - - -  WORDPRESS  - - - - - - - */
 .projects {
@@ -375,4 +347,55 @@ footer {
     background-color: #313131;
     color: #f2f2f2;
     padding: 80px 0 20px;
+}
+
+/* - - - - - - - - - -  JAVA.html  - - - - - - - - - - */
+.ttt {
+    padding-bottom: 0;
+}
+
+.inner_subsequent {
+    padding-top: 0;
+}
+
+.column-left{
+  float: left;
+  width: 45%;
+}
+
+.column-left h3 {
+    margin-top: 55px;
+}
+
+.column-left p {
+    line-height: 1.5;
+}
+
+.column-left ul {
+    margin-bottom: 40px;
+}
+
+.java_code {
+    width = 100%;
+}
+
+.column-right{
+  float: left;
+  width: 45%;
+  margin-left: 70px;
+}
+
+.column-right .individual_javattt {
+    width: 80%
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.line {
+    width: 42%;
 }
