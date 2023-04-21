@@ -350,8 +350,17 @@ footer {
 }
 
 /* - - - - - - - - - -  JAVA.html  - - - - - - - - - - */
+#tic {
+    width: 68%;
+    margin: 0 auto 15px;
+}
+
+#c4 {
+    margin-top: 50px;
+}
+
 .ttt {
-    padding-bottom: 0;
+    padding-top: 0;
 }
 
 .inner_subsequent {
